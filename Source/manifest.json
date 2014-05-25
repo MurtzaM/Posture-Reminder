@@ -1,16 +1,15 @@
 {
-	"manifest_version": 1,
-	"name": "Posture Reminder",
-	"version": "1.0",
-	"description": "Replaces a list of ten English words with 'posture'.",
-	"content_scripts": 
-	[
-		{
-			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
-			"run_at": "document_end"
-		}
-	]
+        "manifest_version": 1,
+        "name": "Posture Reminder",
+        "version": "1.0",
+        "description": "Replaces five most common nouns starting with 'p' with 'posture'.",
+        "content_scripts":
+        [
+                {
+                        "matches": ["*://*/*"],
+                        "js": ["content_script.js"],
+                        "run_at": "document_end"
+                }
+        ]
 }
-
 
