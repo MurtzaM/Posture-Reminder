@@ -48,10 +48,16 @@ function handleText(textNode)
 	var oldValue = textNode.nodeValue;
 	    v = oldValue;
 
-	v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
+	v = v.replace(/\bProblem\b/g, "Posture");
+	v = v.replace(/\bPerson\b/g, "Posture");
+	v = v.replace(/\bPart\b/g, "Posture");
+	v = v.replace(/\bPlace\b/g, "Posture");
+	v = v.replace(/\bPoint\b/g, "Posture");
+	v = v.replace(/\bproblem\b/g, "posture");
+	v = v.replace(/\bperson\b/g, "posture");
+	v = v.replace(/\bpart\b/g, "posture");
+	v = v.replace(/\bplace\b/g, "posture");
+	v = v.replace(/\bpoint\b/g, "posture");
 	
 	// avoid infinite series of DOM changes
 	if (v !== oldValue) {
