@@ -1,4 +1,4 @@
 Posture-Reminder
 ================
 
-Chrome extension that replaces occurrences 'problem, person, part, point, place' with 'posture'
+Chrome extension that replaces occurences of five common English words starting with 'p' with 'posture.'
